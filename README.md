@@ -37,32 +37,14 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+## Explanation
+ 
+1) Clone the Project and run yarn install to download dependencies.I have used yarn as a package manager.
+2) The Application contains following sections
+     1) Header with company logo and buttons to change the language.I have used only two locales English and German.I have translated the static text that you see only on initial load of the application.
+     2)Form Section contains drop down to select income or expense,input fields to add description and value of incomes/expenses and add button to submit the form.I have created left section and right section for incomes and expenses list add.On hovering each list item you can see buttons to edit and delete.
+     3)Sankey chart,i have used https://www.amcharts.com/demos/sankey-diagram/ for employing sankey diagram into project.I have taken care of the use case mentioned in the mail only as initial data,dynamic rendering of chart will be done only if incomes and expenses are added.
+     
+ 3)I made use of Redux Tool kit(https://redux-toolkit.js.org/) to configure store and leveraged the benefits offered by this toolkit.
+ 4)I used hooks from React and Redux-redux for composing components,to access store,dispatching actions.
+ 5)Did Unit testing of code upto 80% using Jest and Enzyme.
