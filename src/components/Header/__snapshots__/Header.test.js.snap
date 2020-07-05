@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render correctly 1`] = `
+<div
+  className="top"
+>
+  <img
+    alt="header.imgDescription"
+    className="header__logo"
+    src="centime_logo.png"
+  />
+  <div
+    className="add__locale"
+  >
+    <button
+      onClick={[Function]}
+    >
+      English
+    </button>
+    <button
+      onClick={[Function]}
+    >
+      German
+    </button>
+  </div>
+</div>
+`;

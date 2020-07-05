@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render correctly 1`] = `
+<div
+  className="bottom"
+>
+  <div
+    className="add"
+    onKeyPress={[Function]}
+  >
+    <div
+      className="add__container"
+    >
+      <select
+        className="add__type"
+        onChange={[Function]}
+        value="income"
+      >
+        <option
+          defaultValue={true}
+          value="income"
+        >
+          bottom.income
+        </option>
+        <option
+          value="expense"
+        >
+           
+          bottom.expense
+        </option>
+      </select>
+      <input
+        className="add__description"
+        name="description"
+        onChange={[Function]}
+        placeholder="bottom.description"
+        type="text"
+        value=""
+      />
+      <input
+        className="add__value"
+        name="value"
+        onChange={[Function]}
+        placeholder="bottom.value"
+        type="number"
+        value=""
+      />
+      <button
+        className="add__btn"
+        onClick={[Function]}
+      >
+        <i
+          className="ion-ios-checkmark-outline"
+        />
+      </button>
+    </div>
+  </div>
+  <div
+    className="container clearfix"
+  >
+    <div
+      className="container clearfix"
+    >
+      <div
+        className="income"
+      >
+        <h2
+          className="icome__title"
+        >
+          bottom.income
+        </h2>
+        <div
+          className="income__list"
+        />
+      </div>
+      <div
+        className="expenses"
+      >
+        <h2
+          className="expenses__title"
+        >
+          bottom.expenses
+        </h2>
+        <div
+          className="expenses__list"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

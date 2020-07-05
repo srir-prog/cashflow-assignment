@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input component should render correctly 1`] = `
+<select
+  className="className"
+  onChange={[MockFunction]}
+  value="Income"
+>
+  <option
+    defaultValue={true}
+    value="income"
+  >
+    bottom.income
+  </option>
+  <option
+    value="expense"
+  >
+     
+    bottom.expense
+  </option>
+</select>
+`;

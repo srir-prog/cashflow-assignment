@@ -1,0 +1,12 @@
+{
+  "header": {
+    "imgDescription": "This is Centime Company Logo"
+  },
+  "bottom": {
+    "income": "Income",
+    "expense": "Expense",
+    "expenses": "Expenses",
+    "value": "Value",
+    "description": "Add Description"
+  }
+}
