@@ -39,12 +39,18 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 ## Explanation
  
-1) Clone the Project and run yarn install to download dependencies.I have used yarn as a package manager.
-2) The Application contains following sections
-     1) Header with company logo and buttons to change the language.I have used only two locales English and German.I have translated the static text that you see only on initial load of the application.
-     2)Form Section contains drop down to select income or expense,input fields to add description and value of incomes/expenses and add button to submit the form.I have created left section and right section for incomes and expenses list add.On hovering each list item you can see buttons to edit and delete.
-     3)Sankey chart,i have used https://www.amcharts.com/demos/sankey-diagram/ for employing sankey diagram into project.I have taken care of the use case mentioned in the mail only as initial data,dynamic rendering of chart will be done only if incomes and expenses are added.
+1) Clone the Project and run yarn install to download dependencies.I have used yarn as a package manager.<br />
+
+2) The Application contains following sections:<br />
+
+     1 ) Header with company logo and buttons to change the language.I have used only two locales English and German.I have translated the static text that you see only on initial load of the application.<br />
+
+     2 )Form Section contains drop down to select income or expense,input fields to add description and value of incomes/expenses and add button to submit the form.I have created left section and right section for incomes and expenses list add.On hovering each list item you can see buttons to edit and delete.<br />
+
+     3 )Sankey chart,i have used https://www.amcharts.com/demos/sankey-diagram/ for employing sankey diagram into project.I have taken care of the use case mentioned in the mail only as initial data,dynamic rendering of chart will be done only if incomes and expenses are added.<br />
      
- 3)I made use of Redux Tool kit(https://redux-toolkit.js.org/) to configure store and leveraged the benefits offered by this toolkit.
- 4)I used hooks from React and Redux-redux for composing components,to access store,dispatching actions.
- 5)Did Unit testing of code upto 80% using Jest and Enzyme.
+ 3)I made use of Redux Tool kit(https://redux-toolkit.js.org/) to configure store and leveraged the benefits offered by this toolkit.<br />
+
+ 4)I used hooks from React and Redux-redux for composing components,to access store,dispatching actions.<br />
+ 
+ 5)Did Unit testing of code upto 80% using Jest and Enzyme.<br />
